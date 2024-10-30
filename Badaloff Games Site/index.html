@@ -41,7 +41,6 @@
             color: rgb(46, 213, 255);
         }
 
-
         .bigtitle {
             padding-top: 1%;
             padding-bottom: 1%;
@@ -109,16 +108,9 @@
             transform: translateX(-100%);
         }
 
-        .image-wrapper:hover .image {
+        .card:hover .image {
             opacity: 1;
-        }
-
-        .image-wrapper:hover .fade-in-right {
-            transform: translateX(0);
-        }
-
-        .image-wrapper:hover .fade-in-left {
-            transform: translateX(0);
+            transform: translateX(0); /* Adjust based on your desired effect */
         }
 
         .sticker {
@@ -174,11 +166,11 @@
 
         /* Footer styles */
         footer {
-  margin-top: auto;
-  background-color: rgba(0, 0, 0, 0.402);
-  color: white;
-  text-align: center;
-}
+            margin-top: auto;
+            background-color: rgba(0, 0, 0, 0.402);
+            color: white;
+            text-align: center;
+        }
 
         footer p {
             margin: 5px 0;
@@ -186,14 +178,14 @@
         }
 
         .footer-link {
-    color: #00d9ff; /* Change this color to your preferred color */
-    text-decoration: none; /* Remove the underline */
-    transition: color 0.3s; /* Smooth transition for color change */
-}
+            color: #00d9ff; /* Change this color to your preferred color */
+            text-decoration: none; /* Remove the underline */
+            transition: color 0.3s; /* Smooth transition for color change */
+        }
 
-.footer-link:hover {
-    color: #ffffff; /* Change this to the hover color you prefer */
-}
+        .footer-link:hover {
+            color: #ffffff; /* Change this to the hover color you prefer */
+        }
 
     </style>
 </head>
@@ -208,18 +200,13 @@
     <div class="container">
         <!-- Card 1 -->
         <div class="card" onclick="window.location='https://play.google.com/store/apps/details?id=com.badaloffgames.twoplayercarbeta&hl=en&gl=US'">
-            <div class="image-wrapper" >
+            <div class="image-wrapper">
                 <div class="image fade-in-right" style="background-image: url('images/twopicon.webp');"></div>
                 <img class="sticker" src="images/twopicon.webp" alt="Sticker 1">
             </div>
             <div class="card-content">
-                <h2 class="sticker-name">2 Player Racing 3D
-                     
-                </h2>
-                <p class="sticker-text">
-                    Race with your friend!
-                       
-                </p>
+                <h2 class="sticker-name">2 Player Racing 3D</h2>
+                <p class="sticker-text">Race with your friend!</p>
             </div>
         </div>
 
@@ -270,9 +257,5 @@
         </p>
         <p>© 2024 BADALOFF Games. All rights reserved.</p>
     </footer>
-    
-    
-    
-
 </body>
 </html>
